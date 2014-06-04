@@ -10,12 +10,12 @@ var repo = {
 }
 
 var qtModule = {
-	labelWidth: 150,
+	labelWidth: 140,
 	vGap: 2
 }
 
 var qtModuleElement = {
-	labelWidth: 120,
+	labelWidth: 140,
 	labelHeight: 23,
 	indentation: 23,
 	hLineLength: 10,

@@ -98,13 +98,13 @@ Diagram {
 				api: "CppAndQml"
 
 				CppNamespace {name: "QBluetooth"}
-				QmlModule {name: "QtBluetooth"}
+				QmlModule {name: "QtBluetooth 5.2"}
 			}
 			QtModule {
 				name: "Qt NFC"
 				api: "CppAndQml"
 
-				QmlModule {name: "QtNfc"}
+				QmlModule {name: "QtNfc 5.2"}
 			}
 		}
 		Repo {
@@ -115,7 +115,7 @@ Diagram {
 				api: "CppAndQml"
 
 				CppNamespace {name: "Enginio"}
-				QmlModule {name: "Enginio"}
+				QmlModule {name: "Enginio 1.0"}
 			}
 		}
 		Repo {
@@ -125,7 +125,7 @@ Diagram {
 				name: "Qt Graphical Effects"
 				api: "QmlOnly"
 
-				QmlModule {name: "QtGraphicalEffects"}
+				QmlModule {name: "QtGraphicalEffects 1.0"}
 			}
 		}
 		Repo {
@@ -135,7 +135,7 @@ Diagram {
 				name: "Qt Positioning"
 				api: "CppAndQml"
 
-				QmlModule {name: "QtPositioning"}
+				QmlModule {name: "QtPositioning 5.2"}
 			}
 		}
 	}
@@ -152,8 +152,8 @@ Diagram {
 				CppNamespace {name: "QMediaMetaData"}
 				CppNamespace {name: "QMultimedia"}
 
-				QmlModule {name: "QtAudioEngine"}
-				QmlModule {name: "QtMultimedia"}
+				QmlModule {name: "QtAudioEngine 1.0"}
+				QmlModule {name: "QtMultimedia 5.0"}
 			}
 
 			QtModule {
@@ -183,7 +183,7 @@ Diagram {
 				name: "Qt Sensors"
 				api: "CppAndQml"
 
-				QmlModule {name: "QtSensors"}
+				QmlModule {name: "QtSensors 5.0"}
 			}
 		}
 		Repo {
@@ -210,7 +210,7 @@ Diagram {
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtWebKit"}
+				QmlModule {name: "QtWebKit 3.0"}
 			}
 			QtModule {
 				name: "Qt WebKit Widgets"
@@ -227,7 +227,7 @@ Diagram {
 
 				CppNamespace {name: "QWebSocketProtocol"}
 				QmlModule {name: "Qt"; isPlaceholder: true}
-				QmlModule {name: "Qt.WebSockets"; nestLevel: 1}
+				QmlModule {name: "Qt.WebSockets 1.0"; nestLevel: 1}
 			}
 		}
 		Repo {
@@ -258,7 +258,7 @@ Diagram {
 				api: "CppAndQml"
 
 				CppNamespace {name: "QtWin"}
-				QmlModule {name: "QtWinExtras"}
+				QmlModule {name: "QtWinExtras 1.0"}
 			}
 		}
 		Repo {
@@ -280,22 +280,22 @@ Diagram {
 
 				QmlModule {name: "Qt"; isPlaceholder: true}
 				QmlModule {name: "Qt.labs"; isPlaceholder: true; nestLevel: 1}
-				QmlModule {name: "Qt.labs.folderlistmodel"; nestLevel: 2}
-				QmlModule {name: "Qt.labs.settings"; nestLevel: 2}
+				QmlModule {name: "Qt.labs.folderlistmodel 2.0"; nestLevel: 2}
+				QmlModule {name: "Qt.labs.settings 1.0"; nestLevel: 2}
 			}
 			QtModule {
 				name: "Qt QML"
 				api: "CppAndQml"
 				status: "essential"
 
-				QmlModule {name: "QtQml"}
-				QmlModule {name: "QtQml.Models"; nestLevel: 1}
+				QmlModule {name: "QtQml 2.2"}
+				QmlModule {name: "QtQml.Models 2.1"; nestLevel: 1}
 			}
 			QtModule {
 				name: "Qt Quick Test"
 				api: "QmlOnly"
 
-				QmlModule {name: "QtTest"}
+				QmlModule {name: "QtTest 1.0"}
 			}
 			QtModule {
 				name: "Qt Quick Widgets"
@@ -306,16 +306,16 @@ Diagram {
 				api: "CppAndQml"
 				status: "essential"
 
-				QmlModule {name: "QtQuick"}
-				QmlModule {name: "QtQuick.LocalStorage"; nestLevel: 1}
-				QmlModule {name: "QtQuick.Window"; nestLevel: 1}
-				QmlModule {name: "QtQuick.XmlListModel"; nestLevel: 1}
+				QmlModule {name: "QtQuick 2.2"}
+				QmlModule {name: "QtQuick.LocalStorage 2.0"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Window 2.0"; nestLevel: 1}
+				QmlModule {name: "QtQuick.XmlListModel 2.0"; nestLevel: 1}
 			}
 			QtModule {
 				name: "Qt Quick Particles"
 				api: "QmlOnly"
 
-				QmlModule {name: "QtQuick.Particles"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Particles 2.0"; nestLevel: 1}
 			}
 		}
 		Repo {
@@ -326,22 +326,22 @@ Diagram {
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtQuick.Controls"; nestLevel: 1}
-				QmlModule {name: "QtQuick.Controls.Styles"; nestLevel: 2}
+				QmlModule {name: "QtQuick.Controls 1.1"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Controls.Styles 1.1"; nestLevel: 2}
 			}
 			QtModule {
 				name: "Qt Quick Dialogs"
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtQuick.Dialogs"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Dialogs 1.1"; nestLevel: 1}
 			}
 			QtModule {
 				name: "Qt Quick Layouts"
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtQuick.Layouts"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Layouts 1.1"; nestLevel: 1}
 			}
 		}
 		Repo {
@@ -352,7 +352,7 @@ Diagram {
 				api: "CppAndQml"
 				status: "deprecated"
 
-				QmlModule {name: "QtQuick"}
+				QmlModule {name: "QtQuick 1.1"}
 			}
 		}
 	}
