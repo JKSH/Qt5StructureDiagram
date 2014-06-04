@@ -4,19 +4,19 @@ Diagram {
 			name: "Git Repository"
 
 			QtModule {
-				name: "Qt Module(C++ API Only)"
+				name: "Qt Module (C++ API Only)"
 				api: "CppOnly"
 
 				CppNamespace {name: "C++ Namespace"}
 			}
 			QtModule {
-				name: "Qt Module(QML API Only)"
+				name: "Qt Module (QML API Only)"
 				api: "QmlOnly"
 
 				QmlModule {name: "QML Module"}
 			}
 			QtModule {
-				name: "Qt Module(Both API)"
+				name: "Qt Module (Both API)"
 				api: "CppAndQml"
 
 				QmlModule {name: "Placeholder"; isPlaceholder: true}
