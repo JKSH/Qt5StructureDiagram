@@ -1,5 +1,5 @@
 import QtQuick 2.2
-import "StyleSheet.js" as Style
+import "private/StyleSheet.js" as Style
 
 /// Expected children: RepoGroup
 Rectangle {

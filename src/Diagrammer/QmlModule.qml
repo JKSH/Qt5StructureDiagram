@@ -1,3 +1,5 @@
+import "private"
+
 /// Expected children: (none)
 QtModuleElement {
 	color: isPlaceholder ? "silver" : "greenyellow"

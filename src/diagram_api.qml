@@ -1,3 +1,5 @@
+import "Diagrammer"
+
 Diagram {
 	RepoGroup {
 		Repo {
