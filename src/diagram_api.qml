@@ -144,8 +144,6 @@ Diagram {
 				QmlModule {name: "QtPositioning 5.2"}
 			}
 		}
-	}
-	RepoGroup {
 		Repo {
 			name: "qtmultimedia.git"
 
