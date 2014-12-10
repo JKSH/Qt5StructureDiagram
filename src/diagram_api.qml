@@ -104,13 +104,13 @@ Diagram {
 				api: "CppAndQml"
 
 				CppNamespace {name: "QBluetooth"}
-				QmlModule {name: "QtBluetooth 5.2"}
+				QmlModule {name: "QtBluetooth 5.4"}
 			}
 			QtModule {
 				name: "Qt NFC"
 				api: "CppAndQml"
 
-				QmlModule {name: "QtNfc 5.2"}
+				QmlModule {name: "QtNfc 5.4"}
 			}
 		}
 		Repo {
@@ -141,7 +141,7 @@ Diagram {
 				name: "Qt Positioning"
 				api: "CppAndQml"
 
-				QmlModule {name: "QtPositioning 5.2"}
+				QmlModule {name: "QtPositioning 5.4"}
 			}
 		}
 		Repo {
@@ -187,7 +187,7 @@ Diagram {
 				name: "Qt Sensors"
 				api: "CppAndQml"
 
-				QmlModule {name: "QtSensors 5.0"}
+				QmlModule {name: "QtSensors 5.4"}
 			}
 		}
 		Repo {
@@ -308,7 +308,7 @@ Diagram {
 
 				QmlModule {name: "Qt"; isPlaceholder: true}
 				QmlModule {name: "Qt.labs"; isPlaceholder: true; nestLevel: 1}
-				QmlModule {name: "Qt.labs.folderlistmodel 2.0"; nestLevel: 2}
+				QmlModule {name: "Qt.labs.folderlistmodel 2.1"; nestLevel: 2}
 				QmlModule {name: "Qt.labs.settings 1.0"; nestLevel: 2}
 			}
 			QtModule {
@@ -323,7 +323,7 @@ Diagram {
 				name: "Qt Quick Test"
 				api: "QmlOnly"
 
-				QmlModule {name: "QtTest 1.0"}
+				QmlModule {name: "QtTest 1.1"}
 			}
 			QtModule {
 				name: "Qt Quick Widgets"
@@ -336,7 +336,7 @@ Diagram {
 
 				QmlModule {name: "QtQuick 2.2"}
 				QmlModule {name: "QtQuick.LocalStorage 2.0"; nestLevel: 1}
-				QmlModule {name: "QtQuick.Window 2.0"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Window 2.2"; nestLevel: 1}
 				QmlModule {name: "QtQuick.XmlListModel 2.0"; nestLevel: 1}
 			}
 			QtModule {
@@ -354,7 +354,7 @@ Diagram {
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtQuick.Controls 1.1"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Controls 1.2"; nestLevel: 1}
 				QmlModule {name: "QtQuick.Controls.Styles 1.1"; nestLevel: 2}
 			}
 			QtModule {
@@ -362,7 +362,7 @@ Diagram {
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtQuick.Dialogs 1.1"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Dialogs 1.2"; nestLevel: 1}
 			}
 			QtModule {
 				name: "Qt Quick Layouts"
