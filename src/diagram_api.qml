@@ -334,7 +334,7 @@ Diagram {
 				api: "CppAndQml"
 				status: "essential"
 
-				QmlModule {name: "QtQuick 2.2"}
+				QmlModule {name: "QtQuick 2.4"}
 				QmlModule {name: "QtQuick.LocalStorage 2.0"; nestLevel: 1}
 				QmlModule {name: "QtQuick.Window 2.2"; nestLevel: 1}
 				QmlModule {name: "QtQuick.XmlListModel 2.0"; nestLevel: 1}
@@ -354,7 +354,7 @@ Diagram {
 				api: "QmlOnly"
 				status: "essential"
 
-				QmlModule {name: "QtQuick.Controls 1.2"; nestLevel: 1}
+				QmlModule {name: "QtQuick.Controls 1.3"; nestLevel: 1}
 				QmlModule {name: "QtQuick.Controls.Styles 1.1"; nestLevel: 2}
 			}
 			QtModule {
