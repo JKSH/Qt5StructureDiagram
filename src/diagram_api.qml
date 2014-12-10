@@ -57,6 +57,10 @@ Diagram {
 				CppNamespace {name: "QGL"}
 			}
 			QtModule {
+				name: "Qt Platform Headers"
+				api: "CppOnly"
+			}
+			QtModule {
 				name: "Qt Print Support"
 				api: "CppOnly"
 			}
@@ -201,6 +205,30 @@ Diagram {
 
 			QtModule {
 				name: "Qt SVG"
+				api: "CppOnly"
+			}
+		}
+		Repo {
+			name: "qtwebchannel.git"
+
+			QtModule {
+				name: "Qt WebChannel"
+				api: "CppAndQml"
+
+				QmlModule {name: "QtWebChannel 1.0"}
+			}
+		}
+		Repo {
+			name: "qtwebengine.git"
+
+			QtModule {
+				name: "Qt WebEngine"
+				api: "QmlOnly"
+
+				QmlModule {name: "QtWebEngine 1.0"}
+			}
+			QtModule {
+				name: "Qt WebEngine Widgets"
 				api: "CppOnly"
 			}
 		}
